@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: #15191e;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+
+.container{
+    background-color: #434e5b;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.kit{
+    color: rgb(255, 187, 0);
+}
+
+.menu a{
+    text-decoration: none;
+    padding: 15px;
+    color: white;
+}
+
+item{
+    outline: 5px;
+    outline-color:rgb(255, 187, 0) ;
+}
+
+.item a{
+    text-decoration: none;
+    color:rgb(255, 187, 0) ;
+    background-color: rgb(93, 92, 92);
+    padding: 8px;
+    border-radius: 10px;
+    border-color:rgb(255, 187, 0);   
+    
+}
+
+
+#content h1{
+    padding-top: 150px;
+    font-size: 70px;
+    text-align: center;
+    padding-bottom: 10px;
+    
+}
+
+.taste{
+    color: rgb(255, 187, 0);
+}
+
+#content{
+    text-align: center;
+}
+
+#content p{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#content a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    font-weight: 1000;
+    padding: 8px 20px;
+    background-color: rgb(255, 187, 0) ;
+    border-radius: 20px;
+}
+
+
+#content a:hover{
+    background-color: #434e5b;
+}
+
+  
